@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = `Git is the software we use to track our changes and share them with others`
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = `Github is where we push our changes to so others can access them as well as so we can keep track of all changes made to our versions`
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+    description: `Git init creates a new repository (similar to fork/cloning if you needed your own version to apply changes)`,
+    code: `git init`
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+    description: `Git clone lets us create a copy of an already existing repository so we can use it on our computers`,
+    code: `git clone WebsiteURL`
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+    description: `Git status lets us see what documents have been altered from their original versions.`,
+    code: `git status`
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description: `Git add moves your changes into the staging area, but does not record them like git commit`,
+    code: `git add .`
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description: `Git commit is the command we use to send the changes as well as typicall adding in a note of what we changed or why we updated it `,
+    code: `git commit -m "Insert changes here" `
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +88,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+    description: `The second step after using git init where you add the location of your repository where you want to push or pull files to/from`,
+    code: `git remote add origin or git remote set-url origin if you are changing it`
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +99,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description: `git push uploads all the changes you have staged on your end to github so they can be viewed by others`,
+    code: `git push`
+}

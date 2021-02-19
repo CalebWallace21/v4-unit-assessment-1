@@ -1,0 +1,138 @@
+#color-row {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(137,252,214);    
+}
+h1 {
+    float: left;
+    font-size: 30px;
+    margin-top: 3vh;
+    margin-left: 2VH;
+}
+.dot-border {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#purple-rectangle {
+    width: 200px;
+    height: 100px;
+    background: #48187f;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    display: inline-block;
+}
+#blue-rectangle {
+width: 100px;
+height: 100px;
+background: blue;
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+display: inline-block;
+margin: 0 50px;
+}
+#pink-rectangle {
+width: 300px;
+height: 300px;
+background: #d77493;
+border-style: solid;
+border-width: 2px;
+display: inline-block;
+}
+#rectangle-box {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#snow-head { 
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 10px;     
+}
+#snow-body {
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 75px;
+    height: 75px; 
+    margin-left: 15px;
+    
+}
+#snow-feet {
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 100px;
+    height: 100px; 
+    margin-bottom: 5px;
+    margin-left: 5px;   
+}
+
+#blue-circle {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+#red-square {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: red;
+    margin-top: 35px;
+    margin-left: 35px;    
+}
+#green-circle {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 50%;
+}
+#tan-rectangle {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background: #f5f4de;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;    
+
+}
+#fish-tank{
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 110px;
+}
+#fish-pic {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    margin-left: 50px;
+    margin-top: 50px
+}
+#everything-box {
+    box-sizing: border-box;
+    height: 30vh;
+    padding: 10px;
+}
+
+
+
+
